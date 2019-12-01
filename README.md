@@ -1,5 +1,5 @@
 # macro_tt_utils
-Procedural Macro Utilities (tt_ident, throw_diagnostics, deref_span).
+Procedural Macro Utilities (```tt_ident```, ```throw_diagnostics```, ```deref_span```).
 
 [![Build Status](https://travis-ci.org/clucompany/Goto.svg?branch=master)](https://travis-ci.org/clucompany/macro_tt_utils)
 [![Mit/Apache licensed](https://img.shields.io/badge/license-MIT%2FApache--2.0-blue)](./LICENSE)
