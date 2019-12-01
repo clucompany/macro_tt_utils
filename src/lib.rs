@@ -52,7 +52,7 @@ Procedural Macro Utilities (tt_ident, throw_diagnostics, deref_span).
 ## tt_ident
 Manipulation of input names in macros, currently only name comparison is possible.
 
-```rust
+```compile_fail
 #![feature(proc_macro_hygiene)]
 
 use macro_tt_utils::tt_ident;
@@ -109,7 +109,7 @@ error: Perhaps undefined behavior
 ## throw_diagnostics 
 Macros to throw compiler errors or warnings (```throw_compile_error```, ```throw_compile_warning```, ```throw_compile_note```, ```throw_compile_help```).
 
-```rust
+```compile_fail
 #![feature(proc_macro_hygiene)]
 
 use macro_tt_utils::throw_compile_warning;
@@ -157,7 +157,7 @@ warning: #2 We are testing warning.
 Unpacks the current span.
 
 
-```
+```rust
 #![feature(proc_macro_hygiene)]
 
 use macro_tt_utils::deref_span;
