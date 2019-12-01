@@ -66,7 +66,7 @@ error: Perhaps undefined behavior
 ```
 
 ## throw_diagnostics 
-Macros to throw compiler errors or warnings (throw_compile_error, throw_compile_warning, throw_compile_note, throw_compile_help).
+Macros to throw compiler errors or warnings (```throw_compile_error```, ```throw_compile_warning```, ```throw_compile_note```, ```throw_compile_help```).
 
 ```rust
 #![feature(proc_macro_hygiene)]
