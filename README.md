@@ -165,3 +165,11 @@ error: aborting due to 2 previous errors
 ```
 
 
+# License
+
+Copyright 2019 #UlinProject (Denis Kotlyarov) Денис Котляров
+
+Licensed under the MIT License
+
+Licensed under the Apache License, Version 2.0
+
