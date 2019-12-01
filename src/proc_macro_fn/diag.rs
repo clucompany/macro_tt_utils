@@ -69,7 +69,6 @@ impl<I> DecodeDiagToken<I> where I: Iterator<Item = TokenTree> {
 								span = i.span();
 								self.buffer.next();
 								
-								
 								match *self.buffer {
 									Some(TokenTree::Literal(ref lit)) => {
 										let mut string = lit.to_string();
