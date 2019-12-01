@@ -116,7 +116,7 @@ warning: #2 We are testing warning.
 Unpacks the current span.
 
 
-```
+```rust
 #![feature(proc_macro_hygiene)]
 
 use macro_tt_utils::deref_span;
