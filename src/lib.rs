@@ -109,7 +109,8 @@ error: Perhaps undefined behavior
 ## throw_diagnostics 
 Macros to throw compiler errors or warnings (```throw_compile_error```, ```throw_compile_warning```, ```throw_compile_note```, ```throw_compile_help```).
 
-```compile_fail
+
+```rust
 #![feature(proc_macro_hygiene)]
 
 use macro_tt_utils::throw_compile_warning;
